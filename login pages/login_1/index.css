@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#app .kadaal {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+#app .kadaal .bidix {
+    width: 40%;
+    background-color: #1AEBB6;
+}
+#app .kadaal .midig {
+    width: 60%;
+}
+
+#app .horay {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+#app .horay .bidix {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 37.4%;
+}
+#app .horay .bidix > img {
+    position: absolute;
+    top: 12%;
+    left: 37%;
+    width: 100px;
+}
+#app .horay .bidix .title {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 24px;
+    font-family: Caveat;
+    text-transform: uppercase;
+}
+#app .horay .bidix p {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    width: 70%;
+    font-size: 22px;
+    font-family: Caveat;
+    text-align: center;
+}
+#app .horay .bidix .socail-media {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    width: 20%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#app .horay .bidix .socail-media img {
+    width: 20px;
+    height: 20px;
+}
+
+#app .horay .midig {
+    width: 62.6%;
+}
+#app .horay .midig .title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Raleway;
+    margin-top: 15%;
+    text-align: center;
+    text-transform: uppercase;
+}
+#app .horay .midig .username,
+#app .horay .midig .password {
+    margin-top: 6%;
+}
+#app .horay .midig .username label,
+#app .horay .midig .password label {
+    display: block;
+    margin-left: 14%;
+    margin-bottom: 1%;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+}
+#app .horay .midig .username input,
+#app .horay .midig .password input{
+    display: block;
+    width: 70%;
+    height: 35px;
+    margin: auto;
+    padding-left: 2%;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+#app .horay .midig .password .forget {
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 14%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .3);
+}
+#app .horay .midig button {
+    display: block;
+    border: none;
+    width: 73%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #1AEBB6;
+}
